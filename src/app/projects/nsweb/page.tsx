@@ -22,7 +22,7 @@ let project_description = {
             }
         ],
         url: '/projects/nsweb',
-        site_name: 'Nikita Smetanin',
+        siteName: 'Nikita Smetanin',
     },
 }
 

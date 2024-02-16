@@ -24,7 +24,7 @@ let project_description = {
             }
         ],
         url: '/projects/lifefuel',
-        site_name: 'Nikita Smetanin',
+        siteName: 'Nikita Smetanin',
     },
 }
 

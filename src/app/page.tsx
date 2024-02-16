@@ -6,6 +6,21 @@ import { Projects } from '@/components/projects'
 export const metadata: Metadata = {
   title: 'Nikita Smetanin - Software Engineer',
   description: 'Creative full-stack engineer that brings your dream to reality. Websites, web apps, mobile apps, backend API services, and more.',
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Nikita Smetanin - Software Engineer',
+    description: 'Creative full-stack engineer that brings your dream to reality. Websites, web apps, mobile apps, backend API services, and more.',
+    images: [
+      {
+        url: '/projects/placeholder.png',
+        width: 585,
+        height: 380,
+        alt: 'Nikita Smetanin - Software Engineer'
+      }
+    ],
+    url: '/',
+    siteName: 'Nikita Smetanin',
+  },
 }
 
 export default async function Home() {
