@@ -10,7 +10,7 @@ let project_description = {
 export default function ProjectPage() {
     return (
         <main className={styles.project_page}>
-            <ProjectHead title={'35FIT'} moto={''} link={''} children={undefined} />
+            <ProjectHead title={'35FIT'} moto={''} children={undefined} />
         </main>
     )
 }
