@@ -1,0 +1,19 @@
+{
+    "name": "Nikita Smetanin",
+    "short_name": "NSWEB",
+    "description": "Creative full-stack developer that brings your dream to reality. Websites, web apps, mobile apps, backend API services, and more.",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "https://nsweb.tech/seo/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://nsweb.tech/seo/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "background_color": "#090909"
+}

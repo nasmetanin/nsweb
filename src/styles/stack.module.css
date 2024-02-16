@@ -1,0 +1,28 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    row-gap: 25px;
+    column-gap: 20px;
+    margin: 35px 0;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: -moz-fit-content;
+    width: fit-content;
+
+}
+
+.item img {
+    filter: brightness(0) invert(1);
+}
+
+.item p {
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 300;
+    margin: 0;
+}

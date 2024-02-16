@@ -1,0 +1,13 @@
+.error_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.error_page h2,
+.error_page p {
+    text-align: center;
+    max-width: 500px;
+}

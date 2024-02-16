@@ -1,0 +1,35 @@
+.header {
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    padding: var(--safe-zone);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--header);
+    z-index: 100;
+
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 25px;
+    transition: all 0.2s ease-in-out;
+    color: var(--h-color);
+}
+
+.logo:hover {
+    text-decoration: none;
+    color: var(--p-color);
+}
+
+.github {
+    filter: invert(1);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.github:hover {
+    filter: invert(0.7);
+}

@@ -1,0 +1,49 @@
+{
+    "data": [
+        {
+            "title": "nsweb",
+            "description": "Personal portfolio website made with React/Next.js and Typescript. Hosted on Vercel",
+            "image": "/projects/placeholder.png",
+            "year": "2024",
+            "url": "nsweb",
+            "tags": [
+                "Design",
+                "Development"
+            ]
+        },
+        {
+            "title": "Radio drUzi",
+            "description": "A web radio station. Worked on front-end and mobile app. Used Nuxt 3 and Flutter.",
+            "image": "/projects/druzi.png",
+            "year": "2023",
+            "url": "druzi",
+            "tags": [
+                "Development",
+                "Mobile"
+            ]
+        },
+        {
+            "title": "Ventus Studio",
+            "description": "A web development studio website. Worked on front-end and back-end. Used Nuxt 3 and WordPress as CMS. Three.js for 3D graphics and GSAP for animations",
+            "image": "/projects/ventus.png",
+            "year": "2023",
+            "url": "ventus",
+            "tags": [
+                "Development",
+                "Animation"
+            ]
+        },
+        {
+            "title": "LifeFuel",
+            "description": "Water subcription service. Worked on front-end and back-end. Used Nuxt 3 and Ruby on Rails, Flutter for mobile app",
+            "image": "/projects/lifefuel.png",
+            "year": "2022-23",
+            "url": "lifefuel",
+            "tags": [
+                "Development",
+                "Design",
+                "Mobile"
+            ]
+        }
+    ]
+}

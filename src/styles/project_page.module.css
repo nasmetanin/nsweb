@@ -1,0 +1,60 @@
+.project_page {
+    padding: var(--header) var(--safe-zone);
+    width: 80%;
+    max-width: 870px;
+    margin: 0 auto;
+}
+
+.project_page section h2 {
+    margin-bottom: 20px;
+}
+
+.go_back {
+    text-transform: uppercase;
+}
+
+.project_description {
+    margin: 0 auto;
+    max-width: var(--container);
+}
+
+.project_description h1 {
+    font-size: 55px;
+    font-size: clamp(28px, 8vw, 55px);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--accent);
+}
+
+.project_description h2 {
+    font-size: 30px;
+    font-size: clamp(20px, 6vw, 30px);
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 20px;
+
+}
+
+.project_page p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: var(--text);
+    max-width: 645px;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    .project_page {
+        max-width: 100%;
+        width: 100%;
+        padding: var(--safe-zone);
+    }
+
+    .project_page p {
+        font-size: 16px;
+    }
+
+}

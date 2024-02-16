@@ -1,0 +1,87 @@
+.project_pages {
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background-color: var(--bg);
+}
+
+.project_pages_nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: clamp(15px, 2vw, 20px);
+}
+
+
+.project_tile {
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #ffffff15;
+    height: 100%;
+    width: 100%;
+    max-width: 480px;
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.project_tile img {
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.top_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.footnote {
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.project_tile:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    border: 1px solid #ffffff2b;
+}
+
+.project_tile h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.project_tile p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+
+@media screen and (width < 540px) {
+    .project_tile {
+        padding: 20px;
+        border-radius: 25px;
+        background-color: #ffffff15;
+        height: 100%;
+    }
+}

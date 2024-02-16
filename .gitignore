@@ -34,3 +34,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# api
+/src/app/api
+
+# unused 3D models and textures
+/public/3d
+/src/models
+/src/json/upcoming.json
