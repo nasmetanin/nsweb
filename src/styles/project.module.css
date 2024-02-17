@@ -18,7 +18,7 @@
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
     gap: clamp(15px, 2vw, 20px);
 }
 
@@ -29,8 +29,6 @@
     background-color: #ffffff15;
     height: 100%;
     width: 100%;
-    margin: auto;
-    max-width: 480px;
     border: 1px solid transparent;
     transition: all 0.2s ease-in-out;
     display: flex;
@@ -77,6 +75,11 @@
     line-height: 1.5;
 }
 
+@media screen and (width < 655px) {
+    .projects {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
 @media screen and (width < 540px) {
     .project_tile {
@@ -84,5 +87,21 @@
         border-radius: 25px;
         background-color: #ffffff15;
         height: 100%;
+    }
+}
+
+@media screen and (width < 340px) {
+    .project_tile {
+        padding: 15px;
+        border-radius: 20px;
+    }
+
+    .project_tile h3,
+    .project_tile h2 {
+        font-size: 16px;
+    }
+
+    .project_tile p {
+        font-size: 12px;
     }
 }
