@@ -15,7 +15,7 @@ let project_description = {
         description: 'Personal space for personal ideas. Website project made with Next.js. Hosted on Vercel',
         images: [
             {
-                url: '/projects/placeholder.png',
+                url: 'https://nsweb.tech/projects/placeholder.png',
                 width: 585,
                 height: 380,
                 alt: 'nsweb website'

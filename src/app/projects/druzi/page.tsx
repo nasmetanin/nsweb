@@ -15,7 +15,7 @@ let project_description = {
         description: 'First Ukrainian radio in Estonia. Website and mobile app project made with Vue.js/Nuxt.js and Flutter. Hosted on Vercel',
         images: [
             {
-                url: '/projects/druzi.png',
+                url: 'https://nsweb.tech/projects/druzi.png',
                 width: 585,
                 height: 380,
                 alt: 'Radio drUzi website'

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: 'Creative full-stack engineer that brings your dream to reality. Websites, web apps, mobile apps, backend API services, and more.',
     images: [
       {
-        url: '/projects/placeholder.png',
+        url: 'https://nsweb.tech/projects/placeholder.png',
         width: 585,
         height: 380,
         alt: 'Nikita Smetanin - Software Engineer'

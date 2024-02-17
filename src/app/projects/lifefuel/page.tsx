@@ -17,7 +17,7 @@ let project_description = {
         description: 'Sustainable health tech. Full-Stack project for a water subscription service.',
         images: [
             {
-                url: '/projects/lifefuel.png',
+                url: 'https://nsweb.tech/projects/lifefuel.png',
                 width: 585,
                 height: 380,
                 alt: 'LifeFuel website'

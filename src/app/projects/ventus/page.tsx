@@ -15,7 +15,7 @@ let project_description = {
         description: 'Digital agency from Kharkiv, Ukraine. Website project made with Vue.js/Nuxt.js. Hosted on Vercel',
         images: [
             {
-                url: '/projects/ventus.png',
+                url: 'https://nsweb.tech/projects/ventus.png',
                 width: 585,
                 height: 380,
                 alt: 'Ventus Studio website'
