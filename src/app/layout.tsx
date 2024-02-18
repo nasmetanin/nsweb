@@ -19,7 +19,11 @@ export default function RootLayout({
   return (
 
     <html lang="en" className={geologica.className}>
-      <Head>
+      <body>
+        <Header />
+
+        {children}
+
         <script type="text/javascript" dangerouslySetInnerHTML={{
           __html: `(function(c,l,a,r,i,t,y){
               c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
@@ -27,12 +31,6 @@ export default function RootLayout({
             y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
       })(window, document, "clarity", "script", "l164l9m7bb");`}}
         />
-      </Head>
-      <body>
-        <Header />
-
-        {children}
-
       </body>
     </html>
   )
