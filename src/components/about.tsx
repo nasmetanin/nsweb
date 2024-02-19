@@ -61,7 +61,7 @@ export default function About() {
                         </Link>
                     </div>
 
-                    <Link className='btn' href="/files/cv-smetanin.pdf" target='_blank'>
+                    <Link className='btn' href="/files/cv-smetanin.pdf" target='_blank' prefetch={false}>
                         View CV
                     </Link>
                 </div>
