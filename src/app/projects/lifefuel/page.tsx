@@ -76,7 +76,7 @@ export default function LifeFuelPage(
 
                     <p>
                         Visit the website:
-                        <Link href="https://lifefuel.io/" title='LifeFuel'>
+                        <Link href="https://lifefuel.io/" title='LifeFuel' className='accent'>
                             lifefuel.io
                         </Link>
                     </p>

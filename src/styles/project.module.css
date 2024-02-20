@@ -26,7 +26,7 @@
 .project_tile {
     padding: 15px;
     border-radius: 20px;
-    background-color: #ffffff15;
+    background-color: var(--project-tile);
     height: 100%;
     width: 100%;
     border: 1px solid transparent;
@@ -34,6 +34,12 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+.project_tile:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    border: 1px solid var(--project-tile-hover);
 }
 
 .project_tile img {
@@ -57,13 +63,6 @@
     gap: 5px;
 }
 
-
-.project_tile:hover {
-    transform: translateY(-5px);
-    cursor: pointer;
-    border: 1px solid #ffffff2b;
-}
-
 .project_tile h2 {
     font-size: 20px;
     font-weight: 700;
@@ -85,7 +84,7 @@
     .project_tile {
         padding: 20px;
         border-radius: 25px;
-        background-color: #ffffff15;
+        background-color: var(--project-tile);
         height: 100%;
     }
 }

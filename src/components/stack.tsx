@@ -1,14 +1,14 @@
 import styles from '@/styles/stack.module.css'
 import Image from 'next/image'
 
-type StackGridProps = {
+type StackProps = {
     stackItems: {
         name: string,
         logo: string
     }[]
 }
 
-export const Stack = (props: StackGridProps) => {
+export const Stack = (props: StackProps) => {
 
     const { stackItems } = props;
 

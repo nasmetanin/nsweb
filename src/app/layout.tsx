@@ -1,7 +1,6 @@
 import '@/styles/globals.css'
 import { Geologica } from 'next/font/google'
 import Header from '@/components/header'
-import Head from 'next/head'
 
 const geologica = Geologica({
   weight: ['300', '500', '700'],

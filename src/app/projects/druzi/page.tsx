@@ -79,7 +79,7 @@ export default function DruziPage(
 
                     <p>
                         Visit the website:
-                        <Link href="https://druzi.ee" title='drUzi'>
+                        <Link href="https://druzi.ee" title='drUzi' className='accent'>
                             druzi.ee
                         </Link>
                     </p>

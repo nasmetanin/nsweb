@@ -35,28 +35,28 @@ export default function About() {
                             target='_blank'>
 
                             <Image src="/img/github.svg"
-                                className={styles.social_icon}
+                                className='social_icon'
                                 alt="Github" width={30} height={30} />
                         </Link>
                         <Link href="https://www.linkedin.com/in/nasmetanin/"
                             target='_blank'
                         >
                             <Image src="/img/linkedin.svg"
-                                className={styles.social_icon}
+                                className='social_icon'
                                 alt="LinkedIn" width={30} height={30} />
                         </Link>
                         <Link href="https://t.me/nasmetanin"
                             target='_blank'
                         >
                             <Image src="/img/telegram.svg"
-                                className={styles.social_icon}
+                                className='social_icon'
                                 alt="Telegram" width={30} height={30} />
                         </Link>
                         <Link href="mailto:nikita@nsweb.tech"
                             target='_blank'
                         >
                             <Image src="/img/email.svg"
-                                className={styles.social_icon}
+                                className='social_icon'
                                 alt="Email" width={30} height={30} />
                         </Link>
                     </div>

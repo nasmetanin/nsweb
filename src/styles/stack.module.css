@@ -17,7 +17,7 @@
 }
 
 .item img {
-    filter: brightness(0) invert(1);
+    filter: var(--stack-item);
 }
 
 .item p {

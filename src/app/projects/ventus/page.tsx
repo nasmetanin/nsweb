@@ -66,7 +66,7 @@ export default function VentusPage(
 
                     <p>
                         Visit the website:
-                        <Link href="https://ventustudio.com/" title='Ventus Studio'>
+                        <Link href="https://ventustudio.com/" title='Ventus Studio' className='accent'>
                             ventustudio.com
                         </Link>
                     </p>

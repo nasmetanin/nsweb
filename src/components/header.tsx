@@ -1,6 +1,7 @@
 import styles from '@/styles/header.module.css'
 import Link from 'next/link'
 import Image from 'next/image';
+import { ThemeSwitch } from './theme-switch';
 
 export default function Header() {
     return (
@@ -9,15 +10,19 @@ export default function Header() {
                 NS.
             </Link>
 
-            <Link href="https://github.com/nasmetanin"
-                target='_blank'
-                title="Github"
-            >
+            <div className={styles.nav}>
+                <ThemeSwitch />
 
-                <Image src="/img/github.svg"
-                    className={styles.github}
-                    alt="Github" width={25} height={25} />
-            </Link>
+                <Link href="https://github.com/nasmetanin"
+                    target='_blank'
+                    title="Github"
+                >
+
+                    <Image src="/img/github.svg"
+                        className="social_icon"
+                        alt="Github" width={25} height={25} />
+                </Link>
+            </div>
         </header>
     )
 }

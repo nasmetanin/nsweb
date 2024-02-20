@@ -71,7 +71,7 @@ export default function ProjectPage(
 
                     <p>
                         Visit the website:
-                        <Link href="/" title='nsweb'>
+                        <Link href="/" title='nsweb' className='accent'>
                             nsweb.tech
                         </Link>
                     </p>

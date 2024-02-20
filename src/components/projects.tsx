@@ -2,8 +2,8 @@
 import styles from '@/styles/project.module.css';
 import projectData from '@/json/projects.json';
 import { Project } from '@/components/project';
-import { useEffect, useState } from 'react';
-import { motion, useAnimation } from "framer-motion";
+import { useState } from 'react';
+import { motion } from "framer-motion";
 
 type Project = {
     title: string,

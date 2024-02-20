@@ -7,6 +7,9 @@
     --hover: #ffffff2a;
     --header: 60px;
     --container: 1020px;
+    --project-tile: #ffffff15;
+    --project-tile-hover: #ffffff2b;
+    --stack-item: brightness(0) invert(1);
 }
 
 html {
@@ -43,7 +46,6 @@ a {
 a:focus-visible {
     outline: none;
     box-shadow: 0 0 0 3px var(--accent);
-    border-radius: 25px;
 }
 
 section {
@@ -97,9 +99,56 @@ section {
     color: #ffffff2a;
 }
 
+.btn:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--accent);
+}
+
+.accent {
+    color: var(--accent);
+}
+
 @media screen and (width < 540px) {
 
     :root {
         --safe-zone: 10px;
     }
+}
+
+.social_icon {
+    filter: invert(1);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.social_icon:hover {
+    filter: invert(0.7);
+}
+
+[data-theme="light"] {
+    --accent: #00c573;
+    --bg: #f5f5f5;
+    --h-color: #090909;
+    --p-color: #151515;
+    --project-tile: #fff;
+    --project-tile-hover: #0000002b;
+    --stack-item: brightness(0) invert(0);
+
+    .btn {
+        background-color: #00000015;
+    }
+
+    .btn:hover {
+        border: 1px solid #0000002b;
+    }
+
+    .social_icon {
+        filter: invert(0);
+    }
+
+    .social_icon:hover {
+        filter: invert(0);
+        opacity: 0.7;
+    }
+
 }
