@@ -47,10 +47,6 @@ export default function GymPage(
             logo: '/img/rails.svg'
         },
         {
-            name: 'Flutter',
-            logo: '/img/flutter.svg'
-        },
-        {
             name: 'Swift',
             logo: '/img/swift.svg'
         }
@@ -128,10 +124,7 @@ export default function GymPage(
                     </p>
 
                     <p>
-                        This led us to another project known as
-                        <Link href="/projects/lifefuel" title='LifeFuel' className='accent'>
-                            LifeFuel
-                        </Link>
+                        This led us to another project known as LifeFuel.
                     </p>
 
                     <h3>Mobile application</h3>
