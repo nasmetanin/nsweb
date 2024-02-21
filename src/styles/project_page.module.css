@@ -32,7 +32,11 @@
     font-weight: 500;
     font-style: italic;
     margin-bottom: 20px;
+}
 
+.project_page h3 {
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 .project_page p {
@@ -41,7 +45,7 @@
     font-weight: 300;
     color: var(--text);
     max-width: 645px;
-    margin-bottom: 15px;
+    margin: 15px 0;
     display: flex;
     gap: 5px;
 }

@@ -44,6 +44,18 @@
                 "Design",
                 "Mobile"
             ]
+        },
+        {
+            "title": "35FIT",
+            "description": "A gym service that utilizes cloud technologies. Worked on back-end, front-end. Used Vue.js, Ruby on Rails",
+            "image": "/projects/35fit.png",
+            "year": "2021-23",
+            "url": "35fit",
+            "tags": [
+                "Development",
+                "Design",
+                "Internal"
+            ]
         }
     ]
 }
