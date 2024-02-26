@@ -22,11 +22,11 @@ export default function About() {
                 </p>
 
                 <p>
-                    I am a full-stack developer, meaning I can work on both the front-end and back-end of a project.
+                    As a full-stack developer with the focus on front-end development I have experience in building web applications using modern technologies such as React and Vue.js. I also have experience in building mobile applications using Swift and Flutter.
                 </p>
 
                 <p>
-                    I am currently a Software Engineer at 35FIT.
+                    I am currently a Software Engineer at Betsson Group.
                 </p>
 
                 <div className={styles.about_footer}>

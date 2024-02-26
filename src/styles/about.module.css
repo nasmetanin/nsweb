@@ -7,7 +7,7 @@
 
 .about_inner p {
     font-size: 21px;
-    font-weight: 500;
+    font-weight: 300;
     margin-bottom: 20px;
 }
 
@@ -19,7 +19,7 @@
     text-transform: uppercase;
     color: var(--accent);
     font-size: 40px !important;
-    font-weight: 700;
+    font-weight: 700 !important;
     cursor: default;
     -webkit-user-select: none;
     user-select: none;

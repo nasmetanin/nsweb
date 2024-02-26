@@ -39,14 +39,24 @@ export const Projects = () => {
         }
     };
 
+    const counterView: () => string = () => {
+        const currentPageStart: number = currentPage * 4 - 3;
+        const currentPageEnd: number = currentPage * 4;
+        const currentPageMaxProjects: number = currentPageEnd - (currentPageEnd - projects.length);
+
+        if (currentPageStart === currentPageMaxProjects) {
+            return `${currentPageStart}`
+        }
+
+        return `${currentPageStart}-${(currentPageEnd) > projects.length ? currentPageMaxProjects : currentPageEnd}`
+    }
+
 
     return (
         <>
             <div className={styles.project_pages}>
                 <h3>
-                    {
-                        `${currentPage * 4 - 3}-${(currentPage * 4) > projects.length ? currentPage * 4 - (currentPage * 4 - projects.length) : currentPage * 4}`
-                    } / {projects.length}
+                    {counterView()} / {projects.length}
                 </h3>
 
                 <div className={styles.project_pages_nav}>
