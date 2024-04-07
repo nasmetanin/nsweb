@@ -2,6 +2,7 @@ import '@/styles/globals.css'
 import { Geologica } from 'next/font/google'
 import Header from '@/components/header'
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 const geologica = Geologica({
   weight: ['300', '500', '700'],
@@ -32,6 +33,7 @@ export default function RootLayout({
       })(window, document, "clarity", "script", "l164l9m7bb");`}}
         />
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   )
