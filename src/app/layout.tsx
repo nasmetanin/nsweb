@@ -1,6 +1,7 @@
 import '@/styles/globals.css'
 import { Geologica } from 'next/font/google'
 import Header from '@/components/header'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const geologica = Geologica({
   weight: ['300', '500', '700'],
@@ -30,6 +31,7 @@ export default function RootLayout({
             y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
       })(window, document, "clarity", "script", "l164l9m7bb");`}}
         />
+        <SpeedInsights />
       </body>
     </html>
   )
