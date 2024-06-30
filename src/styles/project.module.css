@@ -55,6 +55,12 @@
 }
 
 .footnote {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footnote div {
     margin-bottom: 10px;
     font-size: 12px;
     font-weight: 300;

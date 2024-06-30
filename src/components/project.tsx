@@ -30,8 +30,8 @@ export const Project = (props: ProjectTileProps) => {
                     {
                         tags && tags.map((tag, index) => {
                             return (
-                                <>
-                                    <span key={index}>
+                                <div key={index}>
+                                    <span>
                                         {tag}
                                     </span>
                                     {
@@ -40,7 +40,7 @@ export const Project = (props: ProjectTileProps) => {
                                             •
                                         </span>
                                     }
-                                </>
+                                </div>
                             )
                         })
                     }
