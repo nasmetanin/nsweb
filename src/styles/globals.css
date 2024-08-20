@@ -10,6 +10,8 @@
     --project-tile: #ffffff15;
     --project-tile-hover: #ffffff2b;
     --stack-item: brightness(0) invert(1);
+    --divider: #ffffff2b;
+    --greyed-out: #cccccc;
 }
 
 html {
@@ -53,6 +55,13 @@ section {
     padding: 40px var(--safe-zone) var(--safe-zone) var(--safe-zone);
     margin: 0 auto;
     max-width: var(--container);
+}
+
+footer {
+    border-top: 1px solid var(--divider);
+    max-width: var(--container);
+    margin: 0 auto;
+    padding: 5rem var(--safe-zone);
 }
 
 /* custom scrollbar  */
@@ -100,6 +109,10 @@ section {
     color: #ffffff2a;
 }
 
+.btn:active {
+    transform: scale(0.98);
+}
+
 .btn:focus-visible {
     outline: none;
     box-shadow: 0 0 0 3px var(--accent);
@@ -134,6 +147,8 @@ section {
     --project-tile: #fff;
     --project-tile-hover: #0000002b;
     --stack-item: brightness(0) invert(0);
+    --divider: #1414142b;
+    --greyed-out: #666666;
 
     .btn {
         background-color: #00000015;

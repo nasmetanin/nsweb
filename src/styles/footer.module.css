@@ -1,0 +1,13 @@
+.description h2 {
+    margin-bottom: 1.5rem;
+}
+
+.description p {
+    font-weight: 300;
+    margin-bottom: 2.25rem;
+}
+
+.copyright {
+    margin-top: 5rem;
+    color: var(--greyed-out);
+}

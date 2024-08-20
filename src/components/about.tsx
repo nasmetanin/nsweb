@@ -52,7 +52,7 @@ export default function About() {
                                 className='social_icon'
                                 alt="Telegram" width={30} height={30} />
                         </Link>
-                        <Link href="mailto:nikita@nsweb.tech"
+                        <Link href="mailto:nikita@nsweb.dev"
                             target='_blank'
                         >
                             <Image src="/img/email.svg"

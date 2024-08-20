@@ -1,6 +1,7 @@
 import '@/styles/globals.css'
 import { Geologica } from 'next/font/google'
 import Header from '@/components/header'
+import Footer from '@/components/footer'
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
 
@@ -34,6 +35,7 @@ export default function RootLayout({
         />
         <SpeedInsights />
         <Analytics />
+        <Footer />
       </body>
     </html>
   )
