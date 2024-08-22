@@ -9,6 +9,8 @@
     align-items: center;
     height: var(--header);
     z-index: 100;
+    max-width: 1600px;
+    margin: 0 auto;
 
 }
 
