@@ -75,7 +75,7 @@ export default function GymPage(
                     </p>
                 </ProjectHead>
 
-                <ImageCaption src="/projects/35fit.png" alt='35FIT logo with patterns' caption='1. 35FIT logo with patterns' />
+                <ImageCaption priority={true} src="/projects/35fit.png" alt='35FIT logo with patterns' caption='1. 35FIT logo with patterns' />
 
                 <section>
                     <h2>Tech solutions</h2>

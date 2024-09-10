@@ -85,7 +85,7 @@ export default function DruziPage(
                     </p>
                 </ProjectHead>
 
-                <ImageCaption src="/projects/druzi/druzi-title.png" alt='drUzi title page' caption='1. drUzi title page' />
+                <ImageCaption priority={true} src="/projects/druzi/druzi-title.png" alt='drUzi title page' caption='1. drUzi title page' />
 
                 <section>
                     <h2>Tech stack</h2>

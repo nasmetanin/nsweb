@@ -82,7 +82,7 @@ export default function LifeFuelPage(
                     </p>
                 </ProjectHead>
 
-                <ImageCaption src="/projects/lifefuel/lifefuel-title.png" alt='LifeFuel website' caption='1. LifeFuel website title page' />
+                <ImageCaption priority={true} src="/projects/lifefuel/lifefuel-title.png" alt='LifeFuel website' caption='1. LifeFuel website title page' />
 
                 <section>
                     <h2>Tech stack</h2>

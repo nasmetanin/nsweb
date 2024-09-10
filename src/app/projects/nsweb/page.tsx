@@ -77,7 +77,7 @@ export default function ProjectPage(
                     </p>
                 </ProjectHead>
 
-                <ImageCaption src="/projects/nsweb/nsweb-title.png" alt='nsweb title page' caption='1. nsweb title page' />
+                <ImageCaption priority={true} src="/projects/nsweb/nsweb-title.png" alt='nsweb title page' caption='1. nsweb title page' />
 
                 <section>
                     <h2>Tech stack</h2>

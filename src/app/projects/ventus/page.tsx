@@ -72,7 +72,7 @@ export default function VentusPage(
                     </p>
                 </ProjectHead>
 
-                <ImageCaption src="/projects/ventus/ventus-title.png" alt='Ventus Studio website' caption='1. Ventus Studio website title page' />
+                <ImageCaption priority={true} src="/projects/ventus/ventus-title.png" alt='Ventus Studio website' caption='1. Ventus Studio website title page' />
 
                 <section>
                     <h2>Tech stack</h2>
