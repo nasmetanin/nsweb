@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "nsweb",
   "type": "module",
   "private": true,
   "scripts": {
@@ -17,6 +17,7 @@
     "@nuxt/image": "1.11.0",
     "@nuxt/scripts": "0.11.13",
     "@unhead/vue": "^2.0.14",
+    "better-sqlite3": "^12.2.0",
     "eslint": "^9.34.0",
     "nuxt": "^4.0.3",
     "vue": "^3.5.18",
