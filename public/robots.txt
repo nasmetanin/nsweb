@@ -1,4 +1,2 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://nsweb.dev/sitemap.xml
+User-Agent: *
+Disallow:
