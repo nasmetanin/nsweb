@@ -1,5 +1,7 @@
 # nsweb
 
+[![Project Build Success](https://github.com/nasmetanin/nsweb/actions/workflows/project-build-success.yaml/badge.svg)](https://github.com/nasmetanin/nsweb/actions/workflows/project-build-success.yaml)
+
 ## Development Commands
 
 ### Essential Commands
