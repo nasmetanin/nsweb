@@ -1,12 +1,20 @@
 .intro {
   position: relative;
   padding-top: var(--header);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap-reverse;
 }
 
 .intro_inner {
   padding: var(--safe-zone);
-  margin: 0 auto;
   max-width: var(--container);
+}
+
+.intro_lottie {
+  width: 250px;
+  height: 250px;
 }
 
 .intro_inner h1 {
@@ -30,4 +38,20 @@
 
 .intro_inner p {
   text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+  .intro_lottie {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  .intro_lottie {
+    width: 150px;
+    height: 150px;
+  }
 }

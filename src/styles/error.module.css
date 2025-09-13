@@ -1,13 +1,22 @@
 .error_page {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+    min-height: 770px;
+    padding: 0 20px;
+}
+
+.error_page_inner {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 16px;
 }
 
-.error_page h2,
-.error_page p {
+.error_page_inner h2,
+.error_page_inner p {
     text-align: center;
     max-width: 500px;
 }
