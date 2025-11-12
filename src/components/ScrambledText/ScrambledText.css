@@ -1,0 +1,11 @@
+.text-block {
+  max-width: 650px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.char {
+  will-change: transform;
+  display: inline-block;
+}
