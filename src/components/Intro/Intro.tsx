@@ -71,6 +71,7 @@ const Intro = () => {
             <button
               className={`btn ${styles.browseProjects}`}
               onClick={scrollToProjects}
+              aria-label="Scroll to projects section"
             >
               Browse projects
             </button>
