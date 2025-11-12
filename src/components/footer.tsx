@@ -15,7 +15,7 @@ const Footer = () => {
         <p>
           Achieve your goals with a professional website, service or web app.
         </p>
-        <button onClick={() => contact()} className="btn">
+        <button onClick={contact} className="btn">
           Order a project
         </button>
       </div>
