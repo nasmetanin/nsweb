@@ -1,8 +1,8 @@
-import styles from "@/styles/main.module.css";
 import { Metadata } from "next";
 import About from "@/components/about";
 import { Projects } from "@/components/projects";
-import { Lottie } from "@/components/lottie";
+import ClickSpark from "@/components/ClickSpark";
+import Intro from "@/components/Intro/Intro";
 
 export const metadata: Metadata = {
   title: "Nikita Smetanin - Software Engineer",
@@ -29,24 +29,12 @@ export const metadata: Metadata = {
 export default async function Home() {
   return (
     <main>
-      <section className={styles.intro}>
-        <div className={styles.intro_inner}>
-          <h1>
-            I'm <span>Nikita</span>,<br />A software engineer
-          </h1>
-          <h2>and this what I've been working on:</h2>
-        </div>
-        <Lottie
-          src="/assets/deal_out_duck.json"
-          autoplay
-          loop
-          className={styles.intro_lottie}
-        />
-      </section>
-
-      <section id="projects">
-        <Projects />
-      </section>
+      <Intro />
+      <ClickSpark>
+        <section id="projects">
+          <Projects />
+        </section>
+      </ClickSpark>
 
       <section>
         <About />

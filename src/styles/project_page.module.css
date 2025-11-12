@@ -11,6 +11,8 @@
 
 .go_back {
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
 }
 
 .project_description {

@@ -1,0 +1,80 @@
+.intro {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    height: 100svh;
+    padding: 0;
+    max-width: none;
+}
+
+.intro_rays {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.intro_inner {
+    padding: var(--safe-zone);
+    max-width: var(--container);
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.intro_inner h1 {
+    font-size: 55px;
+    font-size: clamp(28px, 8vw, 55px);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.intro_title {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.intro_inner h2 {
+    font-size: 32px;
+    font-size: clamp(20px, 5vw, 32px);
+    font-style: italic;
+    color: var(--p-color);
+}
+
+.intro_inner p {
+    text-align: center;
+    max-width: 540px;
+    font-weight: 300;
+}
+
+.browseProjects {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 12px 24px;
+}
+
+@media screen and (max-width: 420px) {
+    .browseProjects {
+        font-size: 14px;
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
