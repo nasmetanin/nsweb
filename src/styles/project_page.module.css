@@ -1,8 +1,8 @@
 .project_page {
-    padding: var(--header) var(--safe-zone);
+    padding: var(--header) 0;
     width: 80%;
     max-width: 870px;
-    margin: 0 auto;
+    margin: var(--header) auto 0;
 }
 
 .project_page section h2 {
@@ -13,6 +13,7 @@
     text-transform: uppercase;
     display: flex;
     align-items: center;
+    margin-bottom: 12px;
 }
 
 .project_description {
@@ -56,7 +57,7 @@
     .project_page {
         max-width: 100%;
         width: 100%;
-        padding: var(--safe-zone);
+        padding: var(--safe-zone) 0;
     }
 
     .project_page p {

@@ -1,7 +1,6 @@
 import styles from "@/styles/header.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import { ThemeSwitch } from "./theme-switch";
 
 export default function Header() {
   return (
