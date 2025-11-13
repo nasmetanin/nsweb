@@ -1,4 +1,6 @@
 name: Project Build Success
+permissions:
+  contents: read
 on:
   push:
     branches:
