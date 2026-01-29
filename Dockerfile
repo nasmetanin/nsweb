@@ -3,9 +3,6 @@ FROM node:20-alpine AS builder
 
 WORKDIR /usr/src/app
 
-# Copy dependencies from previous stage
-COPY --from=dependencies /usr/src/app/node_modules ./node_modules
-
 # Copy source code
 COPY . .
 
