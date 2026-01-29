@@ -1,12 +1,8 @@
 "use client";
 import Link from "next/link";
 import styles from "@/styles/error.module.css";
-import { Metadata } from "next";
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
-export const metadata: Metadata = {
-  robots: "noindex, nofollow",
-};
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 export default function NotFound() {
   return (
