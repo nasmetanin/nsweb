@@ -14,7 +14,7 @@
 
 ### Node.js Version
 
-This project uses Node.js 18.18.0 (as specified in GitHub Actions). Ensure you're using this version for consistency.
+This project uses Node.js >20 (as specified in GitHub Actions). Ensure you're using this version for consistency.
 
 ## Architecture Overview
 
